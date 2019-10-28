@@ -1,16 +1,34 @@
-# django-react-chat
-Clone project
+# Chat room created with Django and React
+Simple chat using:
+1. Django + Django Channels
+2. React 
+3. PostgreSQL
 
+##Installation
+Clone project:
+```
+git clone https://github.com/dev-yaroslav-b/django-react-chat.git
+```
 To run backend:
-1. cd backend/
-2. docker-compose up
-
+change directory
+```
+cd backend/
+```
+and run
+```
+docker-compose up
+```
 To run frontend:
-1. cd frontend/
-2. npm i
-3. npm start
+change directory
+```
+cd frontend/
+```
+and run
+```
+npm i
+npm start
+```
 
-TDB:
-1. Add docker for frontend
-2. Unittests
-3. Beautiful readme
+##TDB:
+1. Dockerize a React App
+2. Write unittests
